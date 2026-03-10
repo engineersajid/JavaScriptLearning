@@ -1,0 +1,127 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* .PersonInfo {
+  color: white;
+  padding: 50px;
+  border-color: salmon;
+  border-radius: 10px;
+  border: solid red 3px;
+} */
+
+/* Puro body-r background halka change koro */
+/* Background-ke ektu deep koro jate white card-gulo phute uthe */
+/* Body background ektu off-white */
+/* Body-te ekti deep color dao jate white content dekha jay */
+body {
+  background-color: #1a1a1a; /* Deep dark background */
+  color: #ffffff; /* Default text color white */
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.greetings {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #2d2d2d, #1a1a1a);
+  border-bottom: 2px solid salmon;
+}
+
+.services-section h3 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: salmon; /* Title-ke Salmon kora holo visibility-r jonno */
+  margin: 40px 0;
+}
+
+.ourServices {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card Style: Ekhon dark background-e white card bhalo dekhabe */
+.serviceInfo {
+  background: #262626; /* Darker card background */
+  padding: 40px 25px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+}
+
+/* Hover-e Salmon theme */
+.serviceInfo:hover {
+  transform: translateY(-10px);
+  border-color: salmon;
+  box-shadow: 0 10px 30px rgba(250, 128, 114, 0.2);
+}
+
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(250, 128, 114, 0.1);
+  color: salmon;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.service-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #fff; /* Title white jate porishkar bojha jay */
+  margin-bottom: 12px;
+}
+
+.service-desc {
+  color: #bbb; /* Description ektu light grey */
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
