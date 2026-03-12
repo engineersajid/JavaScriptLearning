@@ -1,0 +1,100 @@
+/* Pura screen center korar jonno */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main card design */
+.auth-box {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.header h2 {
+  margin: 0;
+  color: #1a1a1a;
+  font-size: 28px;
+}
+
+.header p {
+  color: #666;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+/* Form input styling */
+.input-field {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-field label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.input-field input:focus {
+  border-color: #4f46e5;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+/* Button design */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #4338ca;
+}
+
+/* Footer link */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.footer span {
+  color: #4f46e5;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.footer span:hover {
+  text-decoration: underline;
+}
